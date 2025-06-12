@@ -1,0 +1,6 @@
+@Práctica_2_Creando_servicios_webs__3_HostAddress = http://localhost:5048
+
+GET {{Práctica_2_Creando_servicios_webs__3_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
