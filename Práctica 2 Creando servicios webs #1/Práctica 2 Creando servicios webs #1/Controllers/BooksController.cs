@@ -14,14 +14,12 @@ namespace Práctica_2_Creando_servicios_webs__1.Controllers
             new Book { Id = 2, Title = "Don Quijote de la Mancha", Author = "Miguel de Cervantes", Year = 1605, Genre = "Novela" }
         };
 
-        // GET /api/books
         [HttpGet]
         public IActionResult GetAllBooks()
         {
             return Ok(books);
         }
 
-        // GET /api/books/{id}
         [HttpGet("{id}")]
         public IActionResult GetBookById(int id)
         {
@@ -32,7 +30,6 @@ namespace Práctica_2_Creando_servicios_webs__1.Controllers
             return Ok(book);
         }
 
-        // POST /api/books
         [HttpPost]
         public IActionResult CreateBook([FromBody] Book newBook)
         {
@@ -44,7 +41,6 @@ namespace Práctica_2_Creando_servicios_webs__1.Controllers
             return CreatedAtAction(nameof(GetBookById), new { id = newBook.Id }, newBook);
         }
 
-        // PUT /api/books/{id}
         [HttpPut("{id}")]
         public IActionResult UpdateBook(int id, [FromBody] Book updatedBook)
         {
@@ -63,7 +59,6 @@ namespace Práctica_2_Creando_servicios_webs__1.Controllers
             return Ok(book);
         }
 
-        // DELETE /api/books/{id}
         [HttpDelete("{id}")]
         public IActionResult DeleteBook(int id)
         {
