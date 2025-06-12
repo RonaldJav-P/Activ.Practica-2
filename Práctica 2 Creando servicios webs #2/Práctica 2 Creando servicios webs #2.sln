@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.13.35919.96 d17.13
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Práctica 2 Creando servicios webs #2", "Práctica 2 Creando servicios webs #2\Práctica 2 Creando servicios webs #2.csproj", "{140D7342-B2EF-4522-8220-5CA89C8D8ADE}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{140D7342-B2EF-4522-8220-5CA89C8D8ADE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{140D7342-B2EF-4522-8220-5CA89C8D8ADE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{140D7342-B2EF-4522-8220-5CA89C8D8ADE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{140D7342-B2EF-4522-8220-5CA89C8D8ADE}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {D037F747-8267-41A2-AED5-86C4AAD33602}
+	EndGlobalSection
+EndGlobal
